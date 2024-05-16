@@ -1,4 +1,7 @@
+extern crate zeromq_src;
+
 use std::env;
+use zeromq_src::LibLocation;
 
 pub fn configure() {
     println!("cargo:rerun-if-changed=build/main.rs");
